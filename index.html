@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>TRUST BANK</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="css/style.css?v=<?php echo time(); ?>"rel = "stylesheet" type ="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+  <?php
+  include 'navbar.php';
+  ?>
+<!-- navbar --> 
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">TRUST BANK</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="createuser.php">Create User</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="transfermoney.php">Transfer Money</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="transactionhistory.php">Transaction History</a>
+          </li>
+      </div>
+   </nav>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">TRUST BANK</h1>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Trust Digital Savings Account is for everyone</h1>
+      <h5 class="w3-padding-32">Are you looking to open a new zero balance account online? Now, open a digital savings account using Aadhaar Card, PAN Card along with other details.</h5>
+
+      <p class="w3-text-grey">Trust is a digital zero balance savings account that can be opened online by everyone (Resident Indian individuals only). Trust Digital Savings Account lets you apply for zero balance savings account or an Trust Edge Digital savings account based on your needs, which acts as a one-stop solution for all your financial needs and day to-day transactions.
+
+
+        Apply for Trust Balance Savings account and grow your money by booking Fixed Deposit of minimum ₹10,000. The digital savings account also lets you transfer funds, pay bills and do more easily.</p>
+    </div>
+    <img src="../basicbanksysteam-main/img/bank.png" alt="bank" style="position: absolute;float: right;">
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Zero Balance Savings account up to 3.5%* interest p.a. along with other benefits.</h1>
+      <h5 class="w3-padding-32">Get the full-fledged award-winning Trust - with unlimited account validity and unrestricted deposits and spends. Complete your KYC verification of your Zero Balance Savings Account right from your home.</h5>
+
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">JOIN TRUST DIGITAL BANKING NOW!</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+ <p>Designed by <a href="https://www.linkedin.com/in/ajay-ravesh/" target="_blank">Ajay Ravesh</a></p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+</script>
+
+</body>
+</html>
