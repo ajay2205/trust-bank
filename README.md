@@ -38,5 +38,5 @@ Paste the link in the browser
 
 ## Screenshots
 
-![Screenshot](img/screenshot.png)
+![Screenshot](img/Screenshot.png)
 
